@@ -1,0 +1,19 @@
+name = uesp.wikigamemap
+description = MediaWiki extension for display UESP's game maps in the wiki.
+repository = ?
+backup = false
+verbosity = 0
+
+	# Staging is important as the APC cache randomly breaks if you try to update the files in place.
+staged = true
+
+ignore = *.deploy
+ignore = .hg*
+ignore = .git*
+
+dest = content1.uesp.net:/home/uesp/www/w/extensions/UespGameMap/
+dest = content2.uesp.net:/home/uesp/www/w/extensions/UespGameMap/
+dest = content3.uesp.net:/home/uesp/www/w/extensions/UespGameMap/
+destname = [backup]backup1.uesp.net:/home/uesp/www/w/extensions/UespGameMap/
+destname = [dev]content3.uesp.net:/home/uesp/dev/www/w/extensions/UespGameMap/
+
