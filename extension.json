@@ -20,6 +20,9 @@
 			"i18n"
 		]
 	},
+	"ExtensionMessagesFiles": {
+		"UespGameMapAlias": "UespGameMap.i18n.alias.php"
+	},
 	"GroupPermissions": {
 	},
 	"ResourceModules" : {
